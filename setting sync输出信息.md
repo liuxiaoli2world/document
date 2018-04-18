@@ -1,8 +1,8 @@
 CODE SETTINGS SYNC UPLOAD SUMMARY
 Version: 2.9.0
 --------------------
-GitHub Token: d9c218373980f853ce9d0b39ec6ddcd6320aebe3
-GitHub Gist: 9fbd31da465ec872217d210419ed1d01
+GitHub Token: 11cc20ea595ee7bd85802e43f9556d4d8b9d4af6
+GitHub Gist: 28bb43a461114d9be36f7c008b5ff599
 GitHub Gist Type: Secret
 
 Restarting Visual Studio Code may be required to apply color and file icon theme.
@@ -21,7 +21,7 @@ Extensions Added:
   gitlens v8.2.1
   guides v0.9.1
   html-snippets v0.2.1
-  JavaScriptSnippets v1.5.0
+  JavaScriptSnippets v1.6.0
   jshint v0.10.18
   jsx v0.0.1
   markdown-preview-enhanced v0.3.5
@@ -30,7 +30,7 @@ Extensions Added:
   prettier-vscode v1.3.0
   prettify-json v0.0.3
   python v2018.3.1
-  ReactSnippets v2.0.0
+  ReactSnippets v2.1.0
   vscode-babel-coloring v0.0.4
   vscode-color v0.4.5
   vscode-eslint v1.4.8
