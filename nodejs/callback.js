@@ -14,11 +14,11 @@
 //     console.log(something)
 // }, 'Nodejs');
 
-'use strict'
+"use strict";
 function print(words) {
-    console.log(words);
-    console.log(this === global);
-    console.log(this);
+  console.log(words);
+  console.log(this === global);
+  console.log(this);
 }
 
-print('...')
+print("...");
