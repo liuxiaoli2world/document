@@ -5,57 +5,57 @@ var life = new EventEmitter();
 life.setMaxListeners(11);
 
 function water(who) {
-    console.log('给' + who + '倒水');
+  console.log('给' + who + '倒水');
 }
 
 life.on('confort', water);
 
 life.on('confort', function(who) {
-    console.log('给 ' + who + ' 2');
+  console.log('给 ' + who + ' 2');
 });
 
 life.on('confort', function(who) {
-    console.log('给 ' + who + ' 3');
+  console.log('给 ' + who + ' 3');
 });
 
 life.on('confort', function(who) {
-    console.log('给 ' + who + ' 4');
+  console.log('给 ' + who + ' 4');
 });
 
 life.on('confort', function(who) {
-    console.log('给 ' + who + ' 5');
+  console.log('给 ' + who + ' 5');
 });
 
 life.on('confort', function(who) {
-    console.log('给 ' + who + ' 6');
+  console.log('给 ' + who + ' 6');
 });
 
 life.on('confort', function(who) {
-    console.log('给 ' + who + ' 7');
+  console.log('给 ' + who + ' 7');
 });
 
 life.on('confort', function(who) {
-    console.log('给 ' + who + ' 8');
+  console.log('给 ' + who + ' 8');
 });
 
 life.on('confort', function(who) {
-    console.log('给 ' + who + ' 9');
+  console.log('给 ' + who + ' 9');
 });
 
 life.on('confort', function(who) {
-    console.log('给 ' + who + ' 10');
+  console.log('给 ' + who + ' 10');
 });
 
 life.on('confort', function(who) {
-    console.log('给 ' + who + ' 11');
+  console.log('给 ' + who + ' 11');
 });
 
 life.on('loved', function(who) {
-    console.log('给 ' + who + '买衣服');
+  console.log('给 ' + who + '买衣服');
 });
 
 life.on('loved', function(who) {
-    console.log('给 ' + who + '买吃的');
+  console.log('给 ' + who + '买吃的');
 });
 
 // 看是否添加了监听
