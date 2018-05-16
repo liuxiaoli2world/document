@@ -1,8 +1,8 @@
 CODE SETTINGS SYNC UPLOAD SUMMARY
-Version: 2.9.0
+Version: 2.9.2
 --------------------
-GitHub Token: b7d810c183284236c7146ae99908de0663a5c912
-GitHub Gist: 28bb43a461114d9be36f7c008b5ff599
+GitHub Token: 34e421a0c41ab7ddd4a9ee75646872407938613b
+GitHub Gist: 38ea875ddba058df6cb6057a05608c05
 GitHub Gist Type: Secret
 
 Restarting Visual Studio Code may be required to apply color and file icon theme.
@@ -12,32 +12,35 @@ Files Uploaded:
   Extensions Removed:
 
 Extensions Added:
-  beautify v1.3.0
+  auto-close-tag v0.5.6
+  auto-rename-tag v0.0.15
+  bracket-pair-colorizer v1.0.48
   code-runner v0.9.3
-  code-settings-sync v2.9.0
+  code-settings-sync v2.9.2
+  code-spell-checker v1.6.10
   color-highlight v2.3.0
-  debugger-for-chrome v4.3.0
+  debugger-for-chrome v4.4.3
   docthis v0.6.0
-  gitlens v8.2.1
+  embrace v1.0.0
+  git-project-manager v1.6.1
+  gitlens v8.2.4
   guides v0.9.1
+  html-css-class-completion v1.17.1
   html-snippets v0.2.1
   JavaScriptSnippets v1.6.0
-  jshint v0.10.18
-  jsx v0.0.1
-  markdown-preview-enhanced v0.3.5
-  open-in-browser v1.1.0
-  output-colorizer v0.1.2
-  prettier-vscode v1.3.0
-  prettify-json v0.0.3
-  python v2018.3.1
-  ReactSnippets v2.1.0
-  vscode-babel-coloring v0.0.4
-  vscode-color v0.4.5
+  npm-intellisense v1.3.0
+  path-intellisense v1.4.2
+  prettier-vscode v1.3.1
+  rpa-eslint-snippets v0.0.2
+  stylelint v0.36.0
+  Theme-Solarized-dark v0.0.2
+  tslint v1.0.28
+  vscode-code-outline v0.2.0
   vscode-eslint v1.4.8
-  vscode-icons v7.22.0
-  vscode-javascript-snippet-pack v0.1.5
-  vscode-markdownlint v0.14.1
+  vscode-icons v7.23.0
+  vscode-language-pack-zh-hans v1.23.4
+  vscode-markdownlint v0.16.0
+  vscode-npm-script v0.3.4
   vscode-todo-highlight v0.5.12
-  vscode-todo-parser v1.9.1
 --------------------
 Done.
