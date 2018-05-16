@@ -1,4 +1,4 @@
-module.exports = {
+{
     "env": {
         "browser": true,
         "commonjs": true,
@@ -7,16 +7,9 @@ module.exports = {
     },
     "extends": "eslint:recommended",
     "parserOptions": {
-        "ecmaFeatures": {
-            "experimentalObjectRestSpread": true,
-            "jsx": true
-        },
         "sourceType": "module"
     },
-    "plugins": [
-        "prettier",
-        "react"
-    ],
+    "plugins": ["html"],
     "rules": {
         "indent": [
             "error",
@@ -32,9 +25,9 @@ module.exports = {
         ],
         "semi": [
             "error",
-            "always"
+            "never"
         ],
         "no-console": "off",
-        "prettier/prettier": "error"
+        "html/html-extension": [".html"]
     }
-};
+}

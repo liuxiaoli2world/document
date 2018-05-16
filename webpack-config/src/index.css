@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(./assets/imgs/bg.svg);
+}
+
+h1 {
+  color: rgb(105, 71, 136);
+}
