@@ -1,0 +1,35 @@
+{
+    "sync.gist": "c5915dd1f1dfb7fc0f2fe9bbef1fec93",
+    "sync.lastUpload": "2018-05-16T07:24:55.042Z",
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.lastDownload": "",
+    "sync.forceDownload": false,
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "sync.quietSync": false,
+    "sync.askGistName": false,
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
+    "terminal.integrated.shell.windows": "D:/Program Files/Git/bin/bash.exe",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "editor.renderIndentGuides": false,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.tabSize": 2,
+    // "eslint.options": {
+    //     "configFile": "E:/liuxiaoli/git/document/server-client/.eslintrc.json"
+    // },
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "html",
+        "vue",
+        "typescript",
+        "typescriptreact"
+    ],
+    "prettier.singleQuote": true,
+    "git.autofetch": true
+}
