@@ -1,8 +1,8 @@
 CODE SETTINGS SYNC UPLOAD SUMMARY
 Version: 2.9.2
 --------------------
-GitHub Token: 34e421a0c41ab7ddd4a9ee75646872407938613b
-GitHub Gist: 38ea875ddba058df6cb6057a05608c05
+GitHub Token: 0674d09cf55a95d698c1be4aa231eb82557d77c5
+GitHub Gist: c5915dd1f1dfb7fc0f2fe9bbef1fec93
 GitHub Gist Type: Secret
 
 Restarting Visual Studio Code may be required to apply color and file icon theme.
