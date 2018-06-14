@@ -2,11 +2,10 @@ const path = require('path')
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 // const ExtractTextPlugin = require('extract-text-webpack-plugin')
-const ExtractTextPlugin = require('extract-text-webpack-plugin')
+// const ExtractTextPlugin = require('extract-text-webpack-plugin')
 // const cssExtract = new ExtractTextWebpackPlugin('[name]-one.css')
 // const lessExtract = new ExtractTextWebpackPlugin('[name]-two.css')
 //const SassExtract = new ExtractTextWebpackPlugin('stylesheets/[name]-three.css')
-
 
 //mini-css-extract-plugin
 
@@ -36,13 +35,6 @@ const config = {
             }
           }
         ]
-      },
-      {
-        test: /\.scss$/,
-        use: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: ['css-loader', 'sass-loader']
-        })
       }
     ]
   },
@@ -52,8 +44,7 @@ const config = {
     }),
     new webpack.DefinePlugin({
       'process.env': { NODE_ENV: isDev ? '"development"' : '"production"' }
-    }),
-    new ExtractTextPlugin('style.css')
+    })
   ]
 }
 
@@ -61,7 +52,7 @@ if (isDev) {
   config.devServer = {
     port: 8080,
     host: '0.0.0.0',
-    //open: true,
+    open: true,
     hot: true,
     overlay: { error: true }
   }

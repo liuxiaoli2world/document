@@ -1,12 +1,128 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  background: url(./assets/imgs/bg2.jpg);
+  height: 2000px;
+}
+.parent {
+  background: #f0f0f0;
+  border: 1px solid #e0e0e0;
+  margin: 10px;
+  font-size: 16px;
 }
 
-h1 {
-  color: rgb(105, 71, 136);
+.p1 {
+  //font-size: 10px;
+  line-height: 1.5;
+}
+.p2 {
+  //font-size: 0;
+  line-height: 1.5em;
+}
+.p3 {
+  //font-size: 16px;
+  line-height: 150%;
+}
+
+.span {
+  font-size: 40px;
+}
+.dad {
+  border: 1px solid red;
+  white-space: nowrap;
+  //width: 100px;
+  //overflow: hidden
+}
+.son {
+  display: inline-block;
+  border: 1px solid gray;
+  //width: 300px;
+}
+
+.ao,
+.bo {
+  width: 0;
+  display: inline-block;
+  margin: 50px;
+}
+.ao:after {
+  content: 'love我love';
+  outline: 1px solid red;
+}
+
+.bo {
+  direction: rtl;
+}
+.bo:after {
+  content: '我love你';
+  outline: 1px solid red;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  white-space: nowrap;
+  width: 400px;
+  overflow-x: auto;
+}
+ul > li {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  background: url('./assets/imgs/1.jpg');
+}
+
+
+
+.flow {
+  width: 200px;
+  overflow: hidden;
+  max-height: 10px;
+  transition: max-height 0.3s;
+}
+
+.flow:active,.flow:focus {
+  max-height: 300px;
+}
+
+.element {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .25s;
+}
+:checked ~ .element {
+  max-height: 666px;
+}
+
+.outer-div {
+  background: red;
+  overflow: hidden;
+  .inner-span {
+    // background: blue;
+    color: white;
+    padding: 10px 0;
+    margin: 10px;
+    // display: inline-block;
+    width: 40px;
+    height: 3px;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    background-clip: content-box;
+    background-color: currentColor;
+  }
+  .round {
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 10px solid;
+    background-clip: content-box;
+    background-color: currentColor;
+  }
+}
+
+ol li{
+  font-size: 40px;
+}
+
+button {
+  padding: 0;
 }
