@@ -1,7 +1,7 @@
 CODE SETTINGS SYNC UPLOAD SUMMARY
 Version: 2.9.2
 --------------------
-GitHub Token: 0674d09cf55a95d698c1be4aa231eb82557d77c5
+GitHub Token: 12960c280559efe6965657f7c21aec38a9573076
 GitHub Gist: c5915dd1f1dfb7fc0f2fe9bbef1fec93
 GitHub Gist Type: Secret
 
