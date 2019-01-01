@@ -1,8 +1,8 @@
 CODE SETTINGS SYNC UPLOAD SUMMARY
 Version: 3.2.4
 --------------------
-GitHub Token: 85bb1c96e330af3743e39fbd15df9995d7328d12
-GitHub Gist: 1dfbc966ee41db25538c6402f6929e50
+GitHub Token: 1205aa31ec8f89b1ac7e535bca22c83f08d57aa0
+GitHub Gist: 25129aa20383ff819a3979941fe135ca
 GitHub Gist Type: Secret
 
 Restarting Visual Studio Code may be required to apply color and file icon theme.
@@ -35,6 +35,7 @@ Extensions Added:
   html-css-class-completion v1.17.1
   html-snippets v0.2.1
   JavaScriptSnippets v1.7.2
+  minapp-vscode v1.11.1
   npm-intellisense v1.3.0
   path-intellisense v1.4.2
   prettier-vscode v1.7.3
